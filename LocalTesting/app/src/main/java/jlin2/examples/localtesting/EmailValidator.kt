@@ -16,9 +16,9 @@ class EmailValidator : TextWatcher {
         isValid = isValidEmail(editableText)
     }
 
-    override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) = Unit
+    override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
 
-    override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) = Unit
+    override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
 
     companion object {
 
