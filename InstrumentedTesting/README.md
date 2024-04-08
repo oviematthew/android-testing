@@ -1,30 +1,52 @@
-# Basic sample for Espresso
+# Running Espresso Tests in Android Studio
+This guide will walk you through the process of running Espresso tests using Android Studio. Espresso is a testing framework for Android that makes it easy to write reliable user interface tests. Follow these steps to set up and run Espresso tests in your Android project.
 
-*If you are new to Espresso, try this sample first.*
+# Prerequisites
+- Android Studio 3.4 or later installed on your machine.
+- Basic familiarity with Android development and Gradle build system.
+  
+# Setup Instructions
+1. Clone the Project:
 
-This project uses the Gradle build system. You don't need an IDE to build and execute it but Android Studio 3.4 is recommended.
+- Download the project code, preferably using git clone.
 
-1. Download the project code, preferably using `git clone`.
-1. In Android Studio, select *File* | *Open...* and point to the `./build.gradle` file.
-1. Check out the relevant code:
-    * The application under test is located in `src/main/java`
-    * Instrumentation Tests are in `src/androidTest/java`
-    * Local Tests are in `src/test/java` 
-1. Create and run the Instrumented test configuration
-    * Open *Run* menu | *Edit Configurations*
-    * Add a new *Android Instrumented Tests* configuration
-    * Choose the `app` module
-    * Connect a device or start an emulator
-    * Turn animations off.
-    (On your device, under Settings->Developer options disable the following 3 settings: "Window animation scale", "Transition animation scale" and "Animator duration scale")
-    * Run the newly created configuration
-    * The application will be started on the device/emulator and a series of actions will be performed automatically.
-1. Create and run the local Test configuration
-    * Open Run menu | Edit Configurations
-    * Add a new *Android JUnit * configuration
-    * Set `Use classpath of module` to `app`
-    * Set `Class` to `ChangeTextBehaviorLocalTest`
-    * Run the configuration    
-    * The test will run on local host
+2. Import Project into Android Studio:
 
-If you are using Android Studio, the *Run* window will show the test results.
+- Open Android Studio.
+- Select File | Open... and navigate to the root directory of the project.
+- Choose the ./build.gradle file and click Open.
+
+3. Explore Project Structure:
+
+- The application under test is located in src/main/java.
+- Instrumentation Tests are in src/androidTest/java.
+- Local Tests are in src/test/java.
+
+4. Configure Instrumented Test:
+
+- Open the Run menu and select Edit Configurations.
+- Add a new Android Instrumented Tests configuration.
+- Choose the app module.
+- Connect a physical device or start an emulator.
+- Disable animations on the device:
+   - Go to Settings -> Developer options.
+   - Disable "Window animation scale", "Transition animation scale", and "Animator duration scale".
+- Run the newly created configuration.
+
+5. Run Local Test Configuration:
+
+- Open the Run menu and select Edit Configurations.
+- Add a new Android JUnit configuration.
+- Set Use classpath of module to app.
+- Set Class to ChangeTextBehaviorLocalTest.
+- Run the configuration.
+  
+# Viewing Test Results
+- If you are using Android Studio, the Run window will display the test results.
+
+# Additional Notes
+- Make sure your project is configured correctly with the necessary dependencies for Espresso testing.
+- Write your Espresso tests in the src/androidTest/java directory.
+- Use the provided sample tests as a reference for writing your own tests.
+  
+By following these steps, you can effectively run Espresso tests in Android Studio to ensure the quality and reliability of your Android applications.
