@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.android.testing.espresso.BasicSample.ChangeTextBehaviorLocalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-07T22:11:46" hostname="RNLD" time="4.97">
+  <properties/>
+  <testcase name="changeText_newActivity" classname="com.example.android.testing.espresso.BasicSample.ChangeTextBehaviorLocalTest" time="4.97"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[WARN] Unknown chunk type '200'.
+]]></system-err>
+</testsuite>

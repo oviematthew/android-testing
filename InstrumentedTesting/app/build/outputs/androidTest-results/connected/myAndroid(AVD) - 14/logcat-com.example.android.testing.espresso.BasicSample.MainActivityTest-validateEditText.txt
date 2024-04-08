@@ -1,0 +1,799 @@
+04-07 18:23:18.327  8733  8767 I TestRunner: started: validateEditText(com.example.android.testing.espresso.BasicSample.MainActivityTest)
+04-07 18:23:18.403  8733  8767 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+04-07 18:23:18.645   414   414 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-07 18:23:18.694  1141  2073 D EGL_emulation: app_time_stats: avg=2597.79ms min=2597.79ms max=2597.79ms count=1
+04-07 18:23:18.699  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: PRE_ON_CREATE
+04-07 18:23:18.699  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+04-07 18:23:18.719 18228 18228 I A       : onPause
+04-07 18:23:18.738  8733  8771 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+04-07 18:23:18.748   883   959 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-07 18:23:18.760  8733  8771 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+04-07 18:23:18.805  8733  8771 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+04-07 18:23:18.901  8733  8733 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10195; state: DISABLED
+04-07 18:23:18.901  8733  8733 D CompatibilityChangeReporter: Compat change id reported: 37756858; UID 10195; state: ENABLED
+04-07 18:23:18.998  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: CREATED
+04-07 18:23:19.008  8733  8733 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7
+04-07 18:23:19.010  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: STARTED
+04-07 18:23:19.016  8733  8733 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7
+04-07 18:23:19.051  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: RESUMED
+04-07 18:23:19.053  8733  8733 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7
+04-07 18:23:19.078  8733  8733 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10195; state: DISABLED
+04-07 18:23:19.098  8733  8733 W OpenGLRenderer: Unknown dataspace 0
+04-07 18:23:19.140 18228 18502 V ClearcutMetricXmitter: Transmission is done.
+04-07 18:23:19.235  8733  8769 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-07 18:23:19.235  8733  8769 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-07 18:23:19.299   154   154 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+04-07 18:23:19.299  8733  8769 I Gralloc4: mapper 4.x is not supported
+04-07 18:23:19.361  8733  8769 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-07 18:23:19.520   529   559 W ziparchive: Unable to open '/data/app/~~6RUHVQ7LTW2Zpr_WdB4NJg==/com.example.android.testing.espresso.BasicSample--5fdK4NGAF-vQP1w9ba76Q==/base.dm': No such file or directory
+04-07 18:23:19.551   529   559 I ActivityTaskManager: Displayed com.example.android.testing.espresso.BasicSample/.MainActivity for user 0: +1s62ms
+04-07 18:23:19.629   529  1285 I ImeTracker: com.example.android.testing.espresso.BasicSample:5fd3c4bc: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+04-07 18:23:19.630   529  1285 I ImeTracker: com.example.android.testing.espresso.BasicSample:5fd3c4bc: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:19.678 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3096
+04-07 18:23:19.719 19390 19390 W NotificationCenter: NotificationCenter$ListenerData.notifyOnExecutor():672 Heavy notify work detected on UI thread: |kbw->img| takes 37ms
+04-07 18:23:19.719  8577  8577 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+04-07 18:23:19.719  8577  8577 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+04-07 18:23:19.743  8577  8577 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+04-07 18:23:19.761 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 0, locked = false
+04-07 18:23:19.761 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-07 18:23:19.769 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:19.773 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+04-07 18:23:19.863  1141  2378 D OneSearchSuggestProvider: Shut down the binder channel
+04-07 18:23:19.862 18228 18228 I A       : onStop
+04-07 18:23:19.892  1141  1172 I ImeTracker: com.google.android.apps.nexuslauncher:cc11daac: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+04-07 18:23:19.893  1141  1172 I ImeTracker: com.google.android.apps.nexuslauncher:cc11daac: onFailed at PHASE_CLIENT_VIEW_SERVED
+04-07 18:23:19.926  1141  1293 I IPCThreadState: oneway function results for code 2 on binder at 0x7d21a7aebfa0 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-07 18:23:19.952   883   934 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@8593927
+04-07 18:23:19.966   529  1964 W InputManager-JNI: Input channel object 'd610333 Splash Screen com.example.android.testing.espresso.BasicSample (client)' was disposed without first being removed with the input manager!
+04-07 18:23:20.038  8733  8767 W FileTestStorage: Output properties is not supported.
+04-07 18:23:20.054  8733  8767 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+04-07 18:23:20.093  8733  8767 D CompatibilityChangeReporter: Compat change id reported: 247079863; UID 10195; state: DISABLED
+04-07 18:23:20.188  8733  8767 D EventInjectionStrategy: Creating injection strategy with input manager.
+04-07 18:23:20.188  8733  8767 W sso.BasicSample: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+04-07 18:23:20.188  8733  8767 W sso.BasicSample: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+04-07 18:23:20.188  8733  8767 W sso.BasicSample: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+04-07 18:23:20.229  8733  8767 W sso.BasicSample: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+04-07 18:23:20.264  8733  8733 W sso.BasicSample: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+04-07 18:23:20.265  8733  8733 W sso.BasicSample: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+04-07 18:23:20.267  8733  8733 W sso.BasicSample: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+04-07 18:23:20.351  8733  8733 I ViewInteraction: Performing 'type text(123)' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:20.486 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3096
+04-07 18:23:20.486  8733  8733 D CompatibilityChangeReporter: Compat change id reported: 163400105; UID 10195; state: ENABLED
+04-07 18:23:20.506  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:69626ccc: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+04-07 18:23:20.506 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 0, locked = false
+04-07 18:23:20.510  8733  8733 D InputMethodManager: showSoftInput() view=android.widget.EditText{c0c5429 VFED..CL. .F.P..ID 42,288-1038,406 #7f030002 app:id/editTextUserInput aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+04-07 18:23:20.510 19390 19390 W AccessPointsManager: AccessPointsManager.removeAccessPoint():846 The holder controller #0x7f0b206c is not registered
+04-07 18:23:20.538 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, false)
+04-07 18:23:20.549 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:20.564 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-07 18:23:20.590 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2062 onStartInputView(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, false)
+04-07 18:23:20.605 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:20.615 19390 19390 W ModuleManager: ModuleManager.loadModule():471 Module ljt is not available
+04-07 18:23:20.625  8733  8769 D EGL_emulation: app_time_stats: avg=134.99ms min=9.40ms max=617.83ms count=8
+04-07 18:23:20.638 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.getOemKeyboardHeightRatio():210 systemKeyboardHeightRatio:1.000000.
+04-07 18:23:20.639 19390 19390 I AndroidIME: AbstractIme.onActivate():89 LatinIme.onActivate() : EditorInfo = EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
+04-07 18:23:20.639  8733  8733 I AssistStructure: Flattened final assist data: 1540 bytes, containing 1 windows, 6 views
+04-07 18:23:20.641 19390 19390 I Delight5Facilitator: Delight5Facilitator.initializeForIme():746 initializeForIme() : Locale = [en_US], layout = qwerty
+04-07 18:23:20.646 19390 19390 I VoiceInputHandler: VoiceInputHandler.onActivateIme():99 registering TalkbackStateListener
+04-07 18:23:20.646 19390 19390 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():102 cancelShutdown()
+04-07 18:23:20.647 19390 19390 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():114 syncLanguagePacks()
+04-07 18:23:20.664 19390 19390 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1190 inline flag updated to:false
+04-07 18:23:20.676 19390 20844 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():200 maybeScheduleAutoPackDownloadForFallback()
+04-07 18:23:20.677 19390 20844 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+04-07 18:23:20.701 19390 19390 I InputBundle: InputBundle.consumeEvent():878 Skip consuming an event as keyboard status is 0
+04-07 18:23:20.743 19390 19390 I KeyboardWrapper: KeyboardWrapper.activateKeyboard():572 activateKeyboard(): type=prime, status=0, imeDef=kpa{stringId=ime_english_united_states, language=en-US, languageTag=en-US, processedConditions={enable_number_row=false, device=phone}, className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, label=0, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=US, displayAppCompletions=true, extraValues=kos{}, processors=kqs@294ba5f, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=true, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kqa@a6871a, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=true, supportsAccessPoints=true}
+04-07 18:23:20.749 19390 19390 I KeyboardManager: KeyboardManager.requestKeyboard():234 Creating keyboard prime, imeId=ime_english_united_states, cacheKey=theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_light_phone_bottom4dp_navredesign
+04-07 18:23:20.769 19390 19390 I KeyboardWrapper: KeyboardWrapper.onKeyboardReady():236 onKeyboardReady(): type=prime(prime), kb=com.google.android.apps.inputmethod.latin.keyboard.LatinPrimeKeyboard@faac541
+04-07 18:23:20.769 19390 19390 I KeyboardWrapper: KeyboardWrapper.doActivateKeyboard():603 doActivateKeyboard(): prime
+04-07 18:23:20.777 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:20.783 19390 19390 W Keyboard: Keyboard.getKeyboardViewHelper():587 null helper is returned: keyboardDef=kpv{processedConditions={enable_more_candidates_view_for_multilingual=false, enable_secondary_symbols=false, variant=qwerty, language=en-US, device=phone, expressions=normal, show_secondary_digits=true, enable_preemptive_decode=true, rtl_layout=false}, globalConditions={global_theme_key=theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_light_phone_bottom4dp_navredesign, global_locale=en_US, global_density_dpi=420, global_orientation=1}, className=.latin.keyboard.LatinPrimeKeyboard, resourceIds=[#0x7f170665, #0x7f1708e2], initialStates=0, keyboardViewDefs=[kqj{direction=null, id=#0x7f0b0150, isScalable=true, layoutId=#0x7f0e03a9, type=BODY, touchable=true, defaultShow=true}, kqj{direction=null, id=#0x7f0b0150, isScalable=false, layoutId=#0x7f0e01b6, type=FLOATING_CANDIDATES, touchable=false, defaultShow=false}, kqj{direction=LOCALE, id=#0x7f0b0150, isScalable=false, layoutId=#0x7f0e059c, type=HEADER, touchable=true, defaultShow=true}], keyTextSizeRatio=1.0, persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e06ac, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, helpersCreated=[kec@760ec57, kec@e915344, kec@5d75c2d, null], context.getResources().getConfiguration(): {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h866dp 420dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2337) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.62 fontWeightAdjustment=0}
+04-07 18:23:20.789 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:20.806 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.startInputIfInputViewStarted():3648 startInputIfInputViewStarted(): default prime
+04-07 18:23:20.807 19390 19390 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():610 setInputView() : supportsOneHandedMode=true supportsSplitMode=true
+04-07 18:23:20.813 19390 19390 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():103 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-07 18:23:20.813 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:20.813 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:20.824 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:20.835 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:20.847 19390 19390 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():103 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-07 18:23:20.847 19390 19390 I KeyboardModeManager: KeyboardModeManager.updateKeyboardPinStateIfNecessary():999 Unpin khz@d5ca46c from hinge
+04-07 18:23:20.847 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:20.847 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:20.848 19390 19390 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():600 setInputView() : entry=jys{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_device=phone_device_size=default_enable_more_candidates_view_for_multilingual=false_enable_nav_redesign_for_expression=true_enable_number_row=false_enable_preemptive_decode=true_enable_secondary_digits=true_enable_secondary_symbols=false_enable_show_foldable_layout_on_small_tablet=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_orientation=portrait_physical_keyboard=qwerty_rtl_layout=false_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=en-US}
+04-07 18:23:20.848 18981 18981 W AutofillChimeraService: Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+04-07 18:23:20.878 19162 19162 D BoundBrokerSvc: onBind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+04-07 18:23:20.878 19162 19162 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+04-07 18:23:20.911  1474  1474 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:1728312404
+04-07 18:23:20.920 19390 19390 I CrowdsourceExtension: CrowdsourceExtension.checkIfDefaultBrowserIsAllowed():110 Failed to get default browser. The default browser may be deactived.
+04-07 18:23:20.933 19390 19390 W AccessPointsManager: AccessPointsManager.removeAccessPoint():846 The holder controller #0x7f0b206c is not registered
+04-07 18:23:20.936 19390 19390 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomaticallyInCurrentInputBox():415 No private IME option set to start voice input.
+04-07 18:23:20.936 18981 19012 I IPCThreadState: oneway function results for code 1 on binder at 0x7d21a7aecff0 will be dropped but finished with status UNKNOWN_TRANSACTION and reply parcel size 80
+04-07 18:23:20.963 19162 19162 D BoundBrokerSvc: onBind: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+04-07 18:23:20.963 19162 19162 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+04-07 18:23:20.990 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:20.991 19390 19390 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():105
+04-07 18:23:20.991 19390 19390 I WindowMetricsNotification: WindowMetricsNotification.notify():98 WindowMetricsNotification{bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0}; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+04-07 18:23:21.020 19390 20832 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-07 18:23:21.207  8733  8733 D UiControllerImpl: Injecting string: "123"
+04-07 18:23:21.257 19390 19390 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():478 onKeyboardViewShown: keyboardType=prime, keyboardViewType=HEADER
+04-07 18:23:21.258 19390 19390 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():478 onKeyboardViewShown: keyboardType=prime, keyboardViewType=BODY
+04-07 18:23:21.267 19390 19390 I NewLanguagePromptExtension: NewLanguagePromptExtension$1.onKeyboardViewShown():99 Not show new language banner: no change in enabled input method entries
+04-07 18:23:21.299 19390 19390 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():103 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-07 18:23:21.300 19390 19469 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():497 setKeyboardLayout()
+04-07 18:23:21.395  8733  8733 D InsetsController: show(ime(), fromIme=true)
+04-07 18:23:21.478 19390 19390 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():73 initialize...
+04-07 18:23:21.478 19390 19390 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():72 onContentChanged()
+04-07 18:23:21.478 19390 19390 I ContactsDataManager: ContactsDataManager.onContentChanged():159 onContentChanged()
+04-07 18:23:21.478 19390 19390 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():83 initialize...done
+04-07 18:23:21.508 19390 21712 I AndroidSpellCheckerService: AndroidSpellCheckerService.createSession():139 com.google.android.keyboard.client.delight5.LanguageIdentifier@88ac803 is created
+04-07 18:23:21.623   883   959 D EGL_emulation: app_time_stats: avg=5522.13ms min=18.78ms max=27109.79ms count=5
+04-07 18:23:21.654  8733  8769 D EGL_emulation: app_time_stats: avg=205.87ms min=80.02ms max=482.74ms count=5
+04-07 18:23:21.681  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:69626ccc: onShown
+04-07 18:23:21.754  8733  8733 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:21.768  8733  8733 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@d28e6e]
+04-07 18:23:21.768  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:7332314d: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+04-07 18:23:21.803 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2353
+04-07 18:23:21.839 19390 19390 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():172 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+04-07 18:23:21.859 19390 19390 I InputBundle: InputBundle.consumeEvent():878 Skip consuming an event as keyboard status is 0
+04-07 18:23:21.862 19390 19390 I VoiceInputHandler: VoiceInputHandler.onDeactivateIme():115 unregistering TalkbackStateListener
+04-07 18:23:21.865 19390 19390 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():124 shutdown()
+04-07 18:23:21.882 19390 19390 I AndroidIME: AbstractIme.onDeactivate():204 LatinIme.onDeactivate()
+04-07 18:23:21.889 19390 19449 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processEndSession():510 No input action collection in this session, skip logging.
+04-07 18:23:21.915 19390 19390 W NotificationCenter: NotificationCenter$ListenerData.notifyOnExecutor():672 Heavy notify work detected on UI thread: |kbw->ime| takes 25ms
+04-07 18:23:21.916 19390 19390 W AccessPointsManager: AccessPointsManager.removeAccessPoint():846 The holder controller #0x7f0b206c is not registered
+04-07 18:23:21.961 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:21.972  8733  8733 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@218956194 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@831a3a5
+04-07 18:23:22.257  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:7b5ec0fa: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+04-07 18:23:22.259   529  2013 I ImeTracker: com.example.android.testing.espresso.BasicSample:7b5ec0fa: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:22.266  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:7332314d: onHidden
+04-07 18:23:22.289  8733  8733 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@d28e6e]
+04-07 18:23:22.319  8733  8733 I ViewInteraction: Performing 'single click' action on view view.getId() is <2130903041/com.example.android.testing.espresso.BasicSample:id/changeTextBt>
+04-07 18:23:22.483   410   447 D audioserver: FGS Logger Transaction failed
+04-07 18:23:22.492   410   447 D audioserver: -129
+04-07 18:23:22.518   410   478 D AudioFlinger: mixer(0x7c2dfefa6930) throttle end: throttle time(24)
+04-07 18:23:22.650   883   959 D EGL_emulation: app_time_stats: avg=18.20ms min=0.94ms max=49.68ms count=39
+04-07 18:23:22.670  8733  8769 D EGL_emulation: app_time_stats: avg=73.58ms min=2.28ms max=496.80ms count=13
+04-07 18:23:22.693   410   478 D audioserver: FGS Logger Transaction failed
+04-07 18:23:22.693   410   478 D audioserver: -129
+04-07 18:23:22.898  8733  8733 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "123"}' assertion on view view.getId() is <2130903044/com.example.android.testing.espresso.BasicSample:id/textToBeChanged>
+04-07 18:23:22.941  8733  8733 I ViewInteraction: Performing 'replace text()' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:23.085 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=3000, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, true)
+04-07 18:23:23.110 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:23.125 19390 19390 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-07 18:23:23.126 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-07 18:23:23.156  8733  8733 I ViewInteraction: Performing 'type text(123)' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:23.157 19390 19390 I ShortcutsDataManager: AbstractContentDataManager.startImportContentTask():240 startImportContentTask()
+04-07 18:23:23.162 19390 19471 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.doInBackground():255 doInBackground()
+04-07 18:23:23.171 19390 19471 I PersonalDictionaryDataHandler: PersonalDictionaryDataHandler.beginProcess():114 LanguageTags = [en-US]
+04-07 18:23:23.191   883   883 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+04-07 18:23:23.230   883   959 D EGL_emulation: app_time_stats: avg=20066.42ms min=20066.42ms max=20066.42ms count=1
+04-07 18:23:23.466  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:2ca1d677: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+04-07 18:23:23.467  8733  8733 D InputMethodManager: showSoftInput() view=android.widget.EditText{c0c5429 VFED..CL. .F.P.... 42,288-1038,406 #7f030002 app:id/editTextUserInput aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+04-07 18:23:23.562 19390 19471 I ShortcutsDataManager: AbstractContentDataManager.importRecords():345 importRecords() : Success : Count = 0
+04-07 18:23:23.575 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2062 onStartInputView(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=3000, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, false)
+04-07 18:23:23.587 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:23.595 19390 19390 W ModuleManager: ModuleManager.loadModule():471 Module ljt is not available
+04-07 18:23:23.647 19390 19471 I ShortcutsDataManager: AbstractContentDataManager.importContentData():295 importContentData() : Ending import process
+04-07 18:23:23.659 19390 19469 I Delight5Decoder: Delight5DecoderWrapper.unloadLanguageModel():929 unloadLanguageModel() : 4, version [n/a]
+04-07 18:23:23.704   883   959 D EGL_emulation: app_time_stats: avg=43.31ms min=1.14ms max=131.47ms count=20
+04-07 18:23:23.742 19390 19390 W InputConnectionWrapper: InputConnectionWrapper.recordDuration():1578 IPC IC_GET_SURROUNDING_TEXT took 137 ms
+04-07 18:23:23.854 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.getOemKeyboardHeightRatio():210 systemKeyboardHeightRatio:1.000000.
+04-07 18:23:23.874  8733  8733 D UiControllerImpl: Injecting string: "123"
+04-07 18:23:23.875 19390 19390 I AndroidIME: AbstractIme.onActivate():89 LatinIme.onActivate() : EditorInfo = EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=3000, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
+04-07 18:23:23.875 19390 19471 I PersonalLanguageModelUpdater: PersonalLanguageModelUpdater$UpdateOperation.performInternal():165 run() : Added 0 words and 0 shortcuts
+04-07 18:23:23.880 19390 19471 I DynamicLanguageModelOperation: DynamicLanguageModelOperation.perform():43 perform() : 4 : dvr : Completed
+04-07 18:23:23.880 19390 19390 I Delight5Facilitator: Delight5Facilitator.initializeForIme():746 initializeForIme() : Locale = [en_US], layout = qwerty
+04-07 18:23:23.895 19390 19390 I VoiceInputHandler: VoiceInputHandler.onActivateIme():99 registering TalkbackStateListener
+04-07 18:23:23.897 19390 19390 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():102 cancelShutdown()
+04-07 18:23:23.897 19390 19390 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():114 syncLanguagePacks()
+04-07 18:23:23.905 19390 19390 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1190 inline flag updated to:false
+04-07 18:23:23.934 19390 19469 I Delight5Decoder: Delight5DecoderWrapper.loadLanguageModel():717 loadLanguageModel() : 4, version [n/a]
+04-07 18:23:23.945 19390 19469 I Delight5Decoder: Delight5DecoderWrapper.loadLanguageModel():758 Loaded dynamic LM 4.en
+04-07 18:23:23.945 19390 20844 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():200 maybeScheduleAutoPackDownloadForFallback()
+04-07 18:23:23.945 19390 20844 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+04-07 18:23:23.946 19390 19390 I InputBundle: InputBundle.consumeEvent():878 Skip consuming an event as keyboard status is 0
+04-07 18:23:23.961 19390 19390 I KeyboardWrapper: KeyboardWrapper.activateKeyboard():572 activateKeyboard(): type=prime, status=0, imeDef=kpa{stringId=ime_english_united_states, language=en-US, languageTag=en-US, processedConditions={enable_number_row=false, device=phone}, className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, label=0, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=US, displayAppCompletions=true, extraValues=kos{}, processors=kqs@294ba5f, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=true, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kqa@a6871a, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=true, supportsAccessPoints=true}
+04-07 18:23:23.975 19390 19390 I KeyboardManager: KeyboardManager.requestKeyboard():234 Creating keyboard prime, imeId=ime_english_united_states, cacheKey=theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_light_phone_bottom4dp_navredesign
+04-07 18:23:24.010 19390 19390 I KeyboardWrapper: KeyboardWrapper.onKeyboardReady():236 onKeyboardReady(): type=prime(prime), kb=com.google.android.apps.inputmethod.latin.keyboard.LatinPrimeKeyboard@faac541
+04-07 18:23:24.015 19390 19390 I KeyboardWrapper: KeyboardWrapper.doActivateKeyboard():603 doActivateKeyboard(): prime
+04-07 18:23:24.043 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:24.063 19390 19390 W Keyboard: Keyboard.getKeyboardViewHelper():587 null helper is returned: keyboardDef=kpv{processedConditions={enable_more_candidates_view_for_multilingual=false, enable_secondary_symbols=false, variant=qwerty, language=en-US, device=phone, expressions=normal, show_secondary_digits=true, enable_preemptive_decode=true, rtl_layout=false}, globalConditions={global_theme_key=theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_light_phone_bottom4dp_navredesign, global_locale=en_US, global_density_dpi=420, global_orientation=1}, className=.latin.keyboard.LatinPrimeKeyboard, resourceIds=[#0x7f170665, #0x7f1708e2], initialStates=0, keyboardViewDefs=[kqj{direction=null, id=#0x7f0b0150, isScalable=true, layoutId=#0x7f0e03a9, type=BODY, touchable=true, defaultShow=true}, kqj{direction=null, id=#0x7f0b0150, isScalable=false, layoutId=#0x7f0e01b6, type=FLOATING_CANDIDATES, touchable=false, defaultShow=false}, kqj{direction=LOCALE, id=#0x7f0b0150, isScalable=false, layoutId=#0x7f0e059c, type=HEADER, touchable=true, defaultShow=true}], keyTextSizeRatio=1.0, persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e06ac, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, helpersCreated=[kec@760ec57, kec@e915344, kec@5d75c2d, null], context.getResources().getConfiguration(): {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h866dp 420dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2337) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.62 fontWeightAdjustment=0}
+04-07 18:23:24.084 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:24.116 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.startInputIfInputViewStarted():3648 startInputIfInputViewStarted(): default prime
+04-07 18:23:24.116 19390 19390 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():610 setInputView() : supportsOneHandedMode=true supportsSplitMode=true
+04-07 18:23:24.118 19390 19390 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():103 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-07 18:23:24.119 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:24.119 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:24.120 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:24.120 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:24.120 19390 19390 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():103 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-07 18:23:24.127 19390 19390 I KeyboardModeManager: KeyboardModeManager.updateKeyboardPinStateIfNecessary():999 Unpin khz@d5ca46c from hinge
+04-07 18:23:24.130 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:24.140 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:24.159 19390 19390 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():600 setInputView() : entry=jys{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_device=phone_device_size=default_enable_more_candidates_view_for_multilingual=false_enable_nav_redesign_for_expression=true_enable_number_row=false_enable_preemptive_decode=true_enable_secondary_digits=true_enable_secondary_symbols=false_enable_show_foldable_layout_on_small_tablet=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_orientation=portrait_physical_keyboard=qwerty_rtl_layout=false_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=en-US}
+04-07 18:23:24.187  8733  8769 D EGL_emulation: app_time_stats: avg=62.09ms min=2.04ms max=547.64ms count=22
+04-07 18:23:24.210  8795  8795 I artd    : Starting artd
+04-07 18:23:24.221  8795  8795 I AidlLazyServiceRegistrar: Registering service artd
+04-07 18:23:24.249 19390 19390 I CrowdsourceExtension: CrowdsourceExtension.checkIfDefaultBrowserIsAllowed():110 Failed to get default browser. The default browser may be deactived.
+04-07 18:23:24.261 19390 19390 W AccessPointsManager: AccessPointsManager.removeAccessPoint():846 The holder controller #0x7f0b206c is not registered
+04-07 18:23:24.276 19390 19390 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomaticallyInCurrentInputBox():415 No private IME option set to start voice input.
+04-07 18:23:24.299 19390 19390 I Choreographer: Skipped 43 frames!  The application may be doing too much work on its main thread.
+04-07 18:23:24.350  8795  8796 I AidlLazyServiceRegistrar: Process has 1 (of 1 available) client(s) in use after notification artd has clients: 1
+04-07 18:23:24.351 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:24.354 19390 19390 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():105
+04-07 18:23:24.357 19390 19390 I WindowMetricsNotification: WindowMetricsNotification.notify():98 WindowMetricsNotification{bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0}; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+04-07 18:23:24.387 19390 20832 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-07 18:23:24.506  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000013/CronetDynamite.dm': No such file or directory
+04-07 18:23:24.506  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000013/CronetDynamite.dm': No such file or directory
+04-07 18:23:24.560  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000004/DynamiteModulesC.dm': No such file or directory
+04-07 18:23:24.560  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000004/DynamiteModulesC.dm': No such file or directory
+04-07 18:23:24.581  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-VisionOcrDynamite.integ_231602402100000.dm': No such file or directory
+04-07 18:23:24.581  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-VisionOcrDynamite.integ_231602402100000.dm': No such file or directory
+04-07 18:23:24.599 19390 19390 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.onPostExecute():266 onPostExecute() : Result = [2,0]
+04-07 18:23:24.600 19390 19390 I ShortcutsDataManager: ShortcutsDataManager.onImportFinished():82 onImportFinished() : Result = 2 : Count = 0
+04-07 18:23:24.601 19390 19390 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():478 onKeyboardViewShown: keyboardType=prime, keyboardViewType=HEADER
+04-07 18:23:24.607 19390 23228 I OpenGLRenderer: Davey! duration=979ms; Flags=1, FrameTimelineVsyncId=91226229, IntendedVsync=394309459801364, Vsync=394310176468002, InputEventId=0, HandleInputStart=394310183312680, AnimationStart=394310188084080, PerformTraversalsStart=394310188122280, DrawStart=394310298996980, FrameDeadline=394309476468030, FrameInterval=394310180721880, FrameStartTime=16666666, SyncQueued=394310309128580, SyncStart=394310315748580, IssueDrawCommandsStart=394310317716280, SwapBuffers=394310430157880, FrameCompleted=394310445828880, DequeueBufferDuration=21800, QueueBufferDuration=205700, GpuCompleted=394310445828880, SwapBuffersCompleted=394310430820680, DisplayPresentTime=0, CommandSubmissionCompleted=394310430157880,
+04-07 18:23:24.614 19390 19390 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():478 onKeyboardViewShown: keyboardType=prime, keyboardViewType=BODY
+04-07 18:23:24.626  8733  8733 D InsetsController: show(ime(), fromIme=true)
+04-07 18:23:24.654 19390 19390 I NewLanguagePromptExtension: NewLanguagePromptExtension$1.onKeyboardViewShown():99 Not show new language banner: no change in enabled input method entries
+04-07 18:23:24.654 19390 19390 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():103 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-07 18:23:24.669  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.dm': No such file or directory
+04-07 18:23:24.669  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.dm': No such file or directory
+04-07 18:23:24.669  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.dm': No such file or directory
+04-07 18:23:24.669  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.dm': No such file or directory
+04-07 18:23:24.670  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.dm': No such file or directory
+04-07 18:23:24.671  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.dm': No such file or directory
+04-07 18:23:24.700 19390 19469 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():497 setKeyboardLayout()
+04-07 18:23:24.716  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000000/AdsDynamite.dm': No such file or directory
+04-07 18:23:24.716  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000000/AdsDynamite.dm': No such file or directory
+04-07 18:23:24.738  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000018/dl-MlkitOcrCommon.optional_241017100800.dm': No such file or directory
+04-07 18:23:24.738  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000018/dl-MlkitOcrCommon.optional_241017100800.dm': No such file or directory
+04-07 18:23:24.754  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000001a/dl-VisionOcr.optional_241017100000.dm': No such file or directory
+04-07 18:23:24.754  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000001a/dl-VisionOcr.optional_241017100000.dm': No such file or directory
+04-07 18:23:24.828  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-PlayCloudSearch.optional_241017100000.dm': No such file or directory
+04-07 18:23:24.828  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-PlayCloudSearch.optional_241017100000.dm': No such file or directory
+04-07 18:23:24.850  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000b/dl-MlkitBarcodeUi.optional_231818100000.dm': No such file or directory
+04-07 18:23:24.851  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000b/dl-MlkitBarcodeUi.optional_231818100000.dm': No such file or directory
+04-07 18:23:24.872  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-Antifingerprinting.optional_241017100000.dm': No such file or directory
+04-07 18:23:24.873  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-Antifingerprinting.optional_241017100000.dm': No such file or directory
+04-07 18:23:24.902  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000014/DynamiteLoader.dm': No such file or directory
+04-07 18:23:24.902  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000014/DynamiteLoader.dm': No such file or directory
+04-07 18:23:24.936  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000e/dl-TfliteDynamiteDynamite.integ_234200803100800.dm': No such file or directory
+04-07 18:23:24.936  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000e/dl-TfliteDynamiteDynamite.integ_234200803100800.dm': No such file or directory
+04-07 18:23:24.949  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000010/dl-PlayCloudSearch.optional_231818100000.dm': No such file or directory
+04-07 18:23:24.949  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000010/dl-PlayCloudSearch.optional_231818100000.dm': No such file or directory
+04-07 18:23:24.958  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-MlkitOcrCommon.optional_231818100800.dm': No such file or directory
+04-07 18:23:24.967  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-MlkitOcrCommon.optional_231818100800.dm': No such file or directory
+04-07 18:23:24.968  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.dm': No such file or directory
+04-07 18:23:24.968  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.dm': No such file or directory
+04-07 18:23:24.972  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:2ca1d677: onShown
+04-07 18:23:24.990  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000001c/dl-MlkitBarcodeUi.optional_241017100800.dm': No such file or directory
+04-07 18:23:24.990  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000001c/dl-MlkitBarcodeUi.optional_241017100800.dm': No such file or directory
+04-07 18:23:25.014 19390 19390 W InputContextProxy: InputContextProxy.applyClientDiffInternal():939 Ignore [FetchSuggestions] diff due to stale request: 1722<1724, inputStateId=1715, lastInputStateId=1716
+04-07 18:23:25.071   883   959 D EGL_emulation: app_time_stats: avg=677.65ms min=86.07ms max=1269.23ms count=2
+04-07 18:23:25.075  8733  8733 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:25.098  8733  8733 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@e4fa3ff]
+04-07 18:23:25.115  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:cc06608a: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+04-07 18:23:25.133 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2353
+04-07 18:23:25.191 19390 19390 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():172 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+04-07 18:23:25.210 19390 19390 I InputBundle: InputBundle.consumeEvent():878 Skip consuming an event as keyboard status is 0
+04-07 18:23:25.273 19390 19390 I VoiceInputHandler: VoiceInputHandler.onDeactivateIme():115 unregistering TalkbackStateListener
+04-07 18:23:25.274 19390 19390 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():124 shutdown()
+04-07 18:23:25.286 19390 19390 I AndroidIME: AbstractIme.onDeactivate():204 LatinIme.onDeactivate()
+04-07 18:23:25.299 19390 19390 W AccessPointsManager: AccessPointsManager.removeAccessPoint():846 The holder controller #0x7f0b206c is not registered
+04-07 18:23:25.325  8733  8733 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@218956194 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@604811b
+04-07 18:23:25.344 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:25.470  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:2c67e573: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+04-07 18:23:25.497   529  2262 I ImeTracker: com.example.android.testing.espresso.BasicSample:2c67e573: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:25.502  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:cc06608a: onHidden
+04-07 18:23:25.575   362  2907 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 91176576
+04-07 18:23:25.622  8733  8769 D EGL_emulation: app_time_stats: avg=354.19ms min=170.96ms max=568.58ms count=4
+04-07 18:23:25.644  8733  8733 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@e4fa3ff]
+04-07 18:23:25.669  8733  8733 I ViewInteraction: Performing 'single click' action on view view.getId() is <2130903040/com.example.android.testing.espresso.BasicSample:id/activityChangeTextBtn>
+04-07 18:23:25.806   410   447 D audioserver: FGS Logger Transaction failed
+04-07 18:23:25.806   410   447 D audioserver: -129
+04-07 18:23:25.914  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: PAUSED
+04-07 18:23:25.914  8733  8733 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7
+04-07 18:23:25.924   414   414 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-07 18:23:25.959   410   478 D AudioFlinger: mixer(0x7c2dfefa6930) throttle end: throttle time(32)
+04-07 18:23:25.961   410   478 D AF::Track: interceptBuffer: took 1126us to intercept 0 tracks
+04-07 18:23:26.000   410   478 D AF::Track: interceptBuffer: took 903us to intercept 0 tracks
+04-07 18:23:26.030   410   478 D AudioFlinger: mixer(0x7c2dfefa6930) throttle end: throttle time(18)
+04-07 18:23:26.086   883   959 D EGL_emulation: app_time_stats: avg=34.94ms min=1.08ms max=101.95ms count=24
+04-07 18:23:26.122   410   478 D audioserver: FGS Logger Transaction failed
+04-07 18:23:26.125   410   478 D audioserver: -129
+04-07 18:23:26.153  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce in: PRE_ON_CREATE
+04-07 18:23:26.154  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce
+04-07 18:23:26.229  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce in: CREATED
+04-07 18:23:26.229  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce
+04-07 18:23:26.238  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce in: STARTED
+04-07 18:23:26.241  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce
+04-07 18:23:26.263  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce in: RESUMED
+04-07 18:23:26.290  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce
+04-07 18:23:26.495  8733  8769 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-07 18:23:26.599   529   559 I ActivityTaskManager: Displayed com.example.android.testing.espresso.BasicSample/.ShowTextActivity for user 0: +768ms
+04-07 18:23:26.650  8733  8769 D EGL_emulation: app_time_stats: avg=30.50ms min=5.94ms max=120.55ms count=28
+04-07 18:23:27.126   529  2289 I ImeTracker: com.example.android.testing.espresso.BasicSample:bba047ef: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+04-07 18:23:27.127   529  2289 I ImeTracker: com.example.android.testing.espresso.BasicSample:bba047ef: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:27.141 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3096
+04-07 18:23:27.157 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 0, locked = false
+04-07 18:23:27.163 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-07 18:23:27.167 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:27.190 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+04-07 18:23:27.203  8733  8733 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "123"}' assertion on view view.getId() is <2130903043/com.example.android.testing.espresso.BasicSample:id/show_text_view>
+04-07 18:23:27.237  8733  8733 I ViewInteraction: Performing 'send keyCode: 4, metaState: 0 key event' action on view view.getRootView() to equal view
+04-07 18:23:27.346  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce in: PAUSED
+04-07 18:23:27.347  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce
+04-07 18:23:27.406  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: RESUMED
+04-07 18:23:27.407  8733  8733 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7
+04-07 18:23:27.545   529  2289 I ImeTracker: com.example.android.testing.espresso.BasicSample:5da6be9a: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+04-07 18:23:27.546   529  2289 I ImeTracker: com.example.android.testing.espresso.BasicSample:5da6be9a: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:27.596 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3096
+04-07 18:23:27.608 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 0, locked = false
+04-07 18:23:27.609 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=3, initialSelEnd=3, initialCapsMode=0, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, false)
+04-07 18:23:27.610 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:27.629 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-07 18:23:27.661  8733  8769 D EGL_emulation: app_time_stats: avg=134.86ms min=7.88ms max=722.21ms count=7
+04-07 18:23:28.420  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce in: STOPPED
+04-07 18:23:28.421  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce
+04-07 18:23:28.446  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce in: DESTROYED
+04-07 18:23:28.460  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@329dbce
+04-07 18:23:28.478  8733  8733 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@d7ebc94
+04-07 18:23:28.499   529   554 W InputManager-JNI: Input channel object '53db5a2 com.example.android.testing.espresso.BasicSample/com.example.android.testing.espresso.BasicSample.ShowTextActivity (client)' was disposed without first being removed with the input manager!
+04-07 18:23:28.526  8733  8733 W KeyEventActionBase: Back was pressed and left the application in an inconsistent state even after 600ms.
+04-07 18:23:28.552  8733  8733 I ViewInteraction: Performing 'replace text()' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:28.623 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=3000, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, true)
+04-07 18:23:28.623  8733  8733 I ViewInteraction: Performing 'type text()' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:28.656 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:28.657 19390 19390 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-07 18:23:28.671  8733  8733 W TypeTextAction: Supplied string is empty resulting in no-op (nothing is typed).
+04-07 18:23:28.697 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-07 18:23:28.730  8733  8733 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:28.757  8733  8733 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@c29c6eb]
+04-07 18:23:28.767  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:d01ab239: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+04-07 18:23:28.777   529  2262 I ImeTracker: com.example.android.testing.espresso.BasicSample:d01ab239: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:28.786  8733  8733 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+04-07 18:23:28.786  8733  8733 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@c29c6eb]
+04-07 18:23:28.801  8733  8733 I ViewInteraction: Performing 'single click' action on view view.getId() is <2130903041/com.example.android.testing.espresso.BasicSample:id/changeTextBt>
+04-07 18:23:28.857  8733  8769 D EGL_emulation: app_time_stats: avg=75.14ms min=9.69ms max=351.28ms count=15
+04-07 18:23:28.976   410   447 D audioserver: FGS Logger Transaction failed
+04-07 18:23:28.976   410   447 D audioserver: -129
+04-07 18:23:28.998   410   478 D AF::Track: interceptBuffer: took 503us to intercept 0 tracks
+04-07 18:23:29.046   529   807 E WifiStaIfaceAidlImpl: installApfPacketFilter failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+04-07 18:23:29.062   410   478 D AF::Track: interceptBuffer: took 1628us to intercept 0 tracks
+04-07 18:23:29.073   410   478 D AudioFlinger: mixer(0x7c2dfefa6930) throttle end: throttle time(11)
+04-07 18:23:29.180   410   478 D audioserver: FGS Logger Transaction failed
+04-07 18:23:29.181   410   478 D audioserver: -129
+04-07 18:23:29.281  8733  8733 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is ""}' assertion on view view.getId() is <2130903044/com.example.android.testing.espresso.BasicSample:id/textToBeChanged>
+04-07 18:23:29.357  8733  8733 I ViewInteraction: Performing 'replace text()' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:29.422  8733  8733 I ViewInteraction: Performing 'type text()' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:29.453  8733  8733 W TypeTextAction: Supplied string is empty resulting in no-op (nothing is typed).
+04-07 18:23:29.460  8733  8733 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:29.466 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=3000, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, true)
+04-07 18:23:29.468  8733  8733 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@25be6c7]
+04-07 18:23:29.470 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:29.470 19390 19390 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-07 18:23:29.470  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:53a62d43: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+04-07 18:23:29.475 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-07 18:23:29.482   529  1285 I ImeTracker: com.example.android.testing.espresso.BasicSample:53a62d43: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:29.490  8733  8733 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+04-07 18:23:29.490  8733  8733 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@25be6c7]
+04-07 18:23:29.521  8733  8733 I ViewInteraction: Performing 'single click' action on view view.getId() is <2130903040/com.example.android.testing.espresso.BasicSample:id/activityChangeTextBtn>
+04-07 18:23:29.623   410   447 D audioserver: FGS Logger Transaction failed
+04-07 18:23:29.625   410   447 D audioserver: -129
+04-07 18:23:29.701   414   414 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-07 18:23:29.702  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: PAUSED
+04-07 18:23:29.713  8733  8733 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7
+04-07 18:23:29.789  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de in: PRE_ON_CREATE
+04-07 18:23:29.803  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de
+04-07 18:23:29.839   410   478 D audioserver: FGS Logger Transaction failed
+04-07 18:23:29.841   410   478 D audioserver: -129
+04-07 18:23:29.862  8733  8769 D EGL_emulation: app_time_stats: avg=13.90ms min=1.53ms max=46.39ms count=42
+04-07 18:23:29.878  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de in: CREATED
+04-07 18:23:29.883  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de
+04-07 18:23:29.883  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de in: STARTED
+04-07 18:23:29.884  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de
+04-07 18:23:29.939  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de in: RESUMED
+04-07 18:23:29.940  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de
+04-07 18:23:30.141  8733  8769 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-07 18:23:30.247   529   559 I ActivityTaskManager: Displayed com.example.android.testing.espresso.BasicSample/.ShowTextActivity for user 0: +621ms
+04-07 18:23:30.321   883   883 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+04-07 18:23:30.571   529   610 I ImeTracker: com.example.android.testing.espresso.BasicSample:db2a8ec5: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+04-07 18:23:30.571   529   610 I ImeTracker: com.example.android.testing.espresso.BasicSample:db2a8ec5: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:30.581 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3096
+04-07 18:23:30.596 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 0, locked = false
+04-07 18:23:30.607 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-07 18:23:30.608 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:30.620 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+04-07 18:23:30.694  8733  8733 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is ""}' assertion on view view.getId() is <2130903043/com.example.android.testing.espresso.BasicSample:id/show_text_view>
+04-07 18:23:30.711  8733  8733 I ViewInteraction: Performing 'send keyCode: 4, metaState: 0 key event' action on view view.getRootView() to equal view
+04-07 18:23:30.820  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de in: PAUSED
+04-07 18:23:30.821  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de
+04-07 18:23:30.861  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: RESUMED
+04-07 18:23:30.863  8733  8733 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7
+04-07 18:23:30.938   529   610 I ImeTracker: com.example.android.testing.espresso.BasicSample:7fd6c8d3: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+04-07 18:23:30.938   529   610 I ImeTracker: com.example.android.testing.espresso.BasicSample:7fd6c8d3: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:30.952 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3096
+04-07 18:23:30.956 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 0, locked = false
+04-07 18:23:30.956 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, false)
+04-07 18:23:30.964 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:30.965 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-07 18:23:30.998  8733  8769 D EGL_emulation: app_time_stats: avg=56.78ms min=7.08ms max=512.15ms count=18
+04-07 18:23:31.533  8733  8733 W KeyEventActionBase: Back was pressed and left the application in an inconsistent state even after 600ms.
+04-07 18:23:31.577  8733  8733 I ViewInteraction: Performing 'replace text()' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:31.634 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=3000, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, true)
+04-07 18:23:31.635  8733  8733 I ViewInteraction: Performing 'type text(GroupNine)' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:31.647 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:31.647 19390 19390 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-07 18:23:31.648 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-07 18:23:31.738  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:7af6c61: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+04-07 18:23:31.767  8733  8733 D InputMethodManager: showSoftInput() view=android.widget.EditText{c0c5429 VFED..CL. .F.P.... 42,288-1038,406 #7f030002 app:id/editTextUserInput aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+04-07 18:23:31.833 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2062 onStartInputView(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=3000, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, false)
+04-07 18:23:31.842 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:31.864 19390 19390 W ModuleManager: ModuleManager.loadModule():471 Module ljt is not available
+04-07 18:23:31.887 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.getOemKeyboardHeightRatio():210 systemKeyboardHeightRatio:1.000000.
+04-07 18:23:31.887 19390 19390 I AndroidIME: AbstractIme.onActivate():89 LatinIme.onActivate() : EditorInfo = EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=3000, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
+04-07 18:23:31.958  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de in: STOPPED
+04-07 18:23:31.962  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de
+04-07 18:23:31.978  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de in: DESTROYED
+04-07 18:23:31.984  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@a7e69de
+04-07 18:23:31.984  8733  8733 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@7b6bea8
+04-07 18:23:32.035   529   554 W InputManager-JNI: Input channel object '232da5a com.example.android.testing.espresso.BasicSample/com.example.android.testing.espresso.BasicSample.ShowTextActivity (client)' was disposed without first being removed with the input manager!
+04-07 18:23:32.054 19390 19390 I Delight5Facilitator: Delight5Facilitator.initializeForIme():746 initializeForIme() : Locale = [en_US], layout = qwerty
+04-07 18:23:32.088 19390 19390 I VoiceInputHandler: VoiceInputHandler.onActivateIme():99 registering TalkbackStateListener
+04-07 18:23:32.097 19390 19390 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():102 cancelShutdown()
+04-07 18:23:32.097 19390 19390 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():114 syncLanguagePacks()
+04-07 18:23:32.140 19390 19390 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1190 inline flag updated to:false
+04-07 18:23:32.154 19390 20844 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():200 maybeScheduleAutoPackDownloadForFallback()
+04-07 18:23:32.155 19390 20844 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+04-07 18:23:32.201 19390 19390 I InputBundle: InputBundle.consumeEvent():878 Skip consuming an event as keyboard status is 0
+04-07 18:23:32.257  8733  8769 D EGL_emulation: app_time_stats: avg=70.10ms min=1.84ms max=350.84ms count=16
+04-07 18:23:32.273 19390 19390 I KeyboardWrapper: KeyboardWrapper.activateKeyboard():572 activateKeyboard(): type=prime, status=0, imeDef=kpa{stringId=ime_english_united_states, language=en-US, languageTag=en-US, processedConditions={enable_number_row=false, device=phone}, className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, label=0, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=US, displayAppCompletions=true, extraValues=kos{}, processors=kqs@294ba5f, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=true, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kqa@a6871a, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=true, supportsAccessPoints=true}
+04-07 18:23:32.320 19390 19390 I KeyboardManager: KeyboardManager.requestKeyboard():234 Creating keyboard prime, imeId=ime_english_united_states, cacheKey=theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_light_phone_bottom4dp_navredesign
+04-07 18:23:32.353 19390 19390 I KeyboardWrapper: KeyboardWrapper.onKeyboardReady():236 onKeyboardReady(): type=prime(prime), kb=com.google.android.apps.inputmethod.latin.keyboard.LatinPrimeKeyboard@faac541
+04-07 18:23:32.354 19162 19162 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+04-07 18:23:32.354 19390 19390 I KeyboardWrapper: KeyboardWrapper.doActivateKeyboard():603 doActivateKeyboard(): prime
+04-07 18:23:32.375 19390 19402 I putmethod.latin: Background young concurrent copying GC freed 226370(10MB) AllocSpace objects, 66(3432KB) LOS objects, 48% free, 14MB/28MB, paused 17.085ms,761us total 486.566ms
+04-07 18:23:32.384 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:32.404 19390 19390 W Keyboard: Keyboard.getKeyboardViewHelper():587 null helper is returned: keyboardDef=kpv{processedConditions={enable_more_candidates_view_for_multilingual=false, enable_secondary_symbols=false, variant=qwerty, language=en-US, device=phone, expressions=normal, show_secondary_digits=true, enable_preemptive_decode=true, rtl_layout=false}, globalConditions={global_theme_key=theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_light_phone_bottom4dp_navredesign, global_locale=en_US, global_density_dpi=420, global_orientation=1}, className=.latin.keyboard.LatinPrimeKeyboard, resourceIds=[#0x7f170665, #0x7f1708e2], initialStates=0, keyboardViewDefs=[kqj{direction=null, id=#0x7f0b0150, isScalable=true, layoutId=#0x7f0e03a9, type=BODY, touchable=true, defaultShow=true}, kqj{direction=null, id=#0x7f0b0150, isScalable=false, layoutId=#0x7f0e01b6, type=FLOATING_CANDIDATES, touchable=false, defaultShow=false}, kqj{direction=LOCALE, id=#0x7f0b0150, isScalable=false, layoutId=#0x7f0e059c, type=HEADER, touchable=true, defaultShow=true}], keyTextSizeRatio=1.0, persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e06ac, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, helpersCreated=[kec@760ec57, kec@e915344, kec@5d75c2d, null], context.getResources().getConfiguration(): {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h866dp 420dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2337) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.62 fontWeightAdjustment=0}
+04-07 18:23:32.415 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:32.436 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.startInputIfInputViewStarted():3648 startInputIfInputViewStarted(): default prime
+04-07 18:23:32.438 19390 19390 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():610 setInputView() : supportsOneHandedMode=true supportsSplitMode=true
+04-07 18:23:32.447 19390 19390 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():103 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-07 18:23:32.447 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:32.453 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:32.453 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:32.453 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:32.453 19390 19390 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():103 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-07 18:23:32.453 19390 19390 I KeyboardModeManager: KeyboardModeManager.updateKeyboardPinStateIfNecessary():999 Unpin khz@d5ca46c from hinge
+04-07 18:23:32.454 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:32.454 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:32.466 19390 19390 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():600 setInputView() : entry=jys{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_device=phone_device_size=default_enable_more_candidates_view_for_multilingual=false_enable_nav_redesign_for_expression=true_enable_number_row=false_enable_preemptive_decode=true_enable_secondary_digits=true_enable_secondary_symbols=false_enable_show_foldable_layout_on_small_tablet=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_orientation=portrait_physical_keyboard=qwerty_rtl_layout=false_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=en-US}
+04-07 18:23:32.482  8733  8733 D UiControllerImpl: Injecting string: "GroupNine"
+04-07 18:23:32.518 19390 19390 I CrowdsourceExtension: CrowdsourceExtension.checkIfDefaultBrowserIsAllowed():110 Failed to get default browser. The default browser may be deactived.
+04-07 18:23:32.519 19390 19390 W AccessPointsManager: AccessPointsManager.removeAccessPoint():846 The holder controller #0x7f0b206c is not registered
+04-07 18:23:32.519 19390 19390 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomaticallyInCurrentInputBox():415 No private IME option set to start voice input.
+04-07 18:23:32.542 19390 19390 I Choreographer: Skipped 41 frames!  The application may be doing too much work on its main thread.
+04-07 18:23:32.586 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:32.587 19390 19390 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():105
+04-07 18:23:32.601 19390 19390 I WindowMetricsNotification: WindowMetricsNotification.notify():98 WindowMetricsNotification{bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0}; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+04-07 18:23:32.629 19390 20832 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-07 18:23:32.707   362  2907 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 91488832
+04-07 18:23:32.763 19390 19407 I OpenGLRenderer: Davey! duration=884ms; Flags=1, FrameTimelineVsyncId=91229673, IntendedVsync=394317726467700, Vsync=394318409801006, InputEventId=0, HandleInputStart=394318423428880, AnimationStart=394318423457380, PerformTraversalsStart=394318423483380, DrawStart=394318537127280, FrameDeadline=394317743134366, FrameInterval=394318422924480, FrameStartTime=16666666, SyncQueued=394318564229080, SyncStart=394318571618480, IssueDrawCommandsStart=394318584210680, SwapBuffers=394318602931580, FrameCompleted=394318618750680, DequeueBufferDuration=454700, QueueBufferDuration=357600, GpuCompleted=394318618750680, SwapBuffersCompleted=394318605969380, DisplayPresentTime=0, CommandSubmissionCompleted=394318602931580,
+04-07 18:23:32.790 19390 19390 W InputContextProxy: InputContextProxy.applyClientDiffInternal():939 Ignore [FetchSuggestions] diff due to stale request: 1727<1728, inputStateId=1720, lastInputStateId=1719
+04-07 18:23:32.790 19390 19390 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():478 onKeyboardViewShown: keyboardType=prime, keyboardViewType=HEADER
+04-07 18:23:32.790 19390 19390 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():478 onKeyboardViewShown: keyboardType=prime, keyboardViewType=BODY
+04-07 18:23:32.791 19390 19390 I NewLanguagePromptExtension: NewLanguagePromptExtension$1.onKeyboardViewShown():99 Not show new language banner: no change in enabled input method entries
+04-07 18:23:32.791 19390 19390 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():103 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-07 18:23:32.809 19390 19469 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():497 setKeyboardLayout()
+04-07 18:23:32.861  8733  8733 D InsetsController: show(ime(), fromIme=true)
+04-07 18:23:32.966   883   883 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+04-07 18:23:33.031 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:33.149   883   959 D EGL_emulation: app_time_stats: avg=314.56ms min=1.49ms max=6108.98ms count=22
+04-07 18:23:33.170  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:7af6c61: onShown
+04-07 18:23:33.261  8733  8769 D EGL_emulation: app_time_stats: avg=200.70ms min=135.06ms max=368.81ms count=5
+04-07 18:23:33.374 19390 19390 W InputConnectionWrapper: InputConnectionWrapper.recordDuration():1578 IPC IC_GET_SURROUNDING_TEXT took 154 ms
+04-07 18:23:33.391   883   883 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+04-07 18:23:33.399  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000013/CronetDynamite.dm': No such file or directory
+04-07 18:23:33.399  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000013/CronetDynamite.dm': No such file or directory
+04-07 18:23:33.453  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000004/DynamiteModulesC.dm': No such file or directory
+04-07 18:23:33.453  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000004/DynamiteModulesC.dm': No such file or directory
+04-07 18:23:33.462  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-VisionOcrDynamite.integ_231602402100000.dm': No such file or directory
+04-07 18:23:33.464  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-VisionOcrDynamite.integ_231602402100000.dm': No such file or directory
+04-07 18:23:33.483  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.dm': No such file or directory
+04-07 18:23:33.483  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.dm': No such file or directory
+04-07 18:23:33.490  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.dm': No such file or directory
+04-07 18:23:33.497  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.dm': No such file or directory
+04-07 18:23:33.499  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.dm': No such file or directory
+04-07 18:23:33.499  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.dm': No such file or directory
+04-07 18:23:33.524 19390 19390 W InputContextProxy: InputContextProxy.applyClientDiffInternal():939 Ignore [FetchSuggestions] diff due to stale request: 1730<1732, inputStateId=1723, lastInputStateId=1724
+04-07 18:23:33.524  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000000/AdsDynamite.dm': No such file or directory
+04-07 18:23:33.524  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000000/AdsDynamite.dm': No such file or directory
+04-07 18:23:33.538  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000018/dl-MlkitOcrCommon.optional_241017100800.dm': No such file or directory
+04-07 18:23:33.539  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000018/dl-MlkitOcrCommon.optional_241017100800.dm': No such file or directory
+04-07 18:23:33.554  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000001a/dl-VisionOcr.optional_241017100000.dm': No such file or directory
+04-07 18:23:33.554  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000001a/dl-VisionOcr.optional_241017100000.dm': No such file or directory
+04-07 18:23:33.555 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:33.574  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-PlayCloudSearch.optional_241017100000.dm': No such file or directory
+04-07 18:23:33.575  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-PlayCloudSearch.optional_241017100000.dm': No such file or directory
+04-07 18:23:33.587  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000b/dl-MlkitBarcodeUi.optional_231818100000.dm': No such file or directory
+04-07 18:23:33.587  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000b/dl-MlkitBarcodeUi.optional_231818100000.dm': No such file or directory
+04-07 18:23:33.593  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-Antifingerprinting.optional_241017100000.dm': No such file or directory
+04-07 18:23:33.606  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-Antifingerprinting.optional_241017100000.dm': No such file or directory
+04-07 18:23:33.634  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000014/DynamiteLoader.dm': No such file or directory
+04-07 18:23:33.634  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000014/DynamiteLoader.dm': No such file or directory
+04-07 18:23:33.650  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000e/dl-TfliteDynamiteDynamite.integ_234200803100800.dm': No such file or directory
+04-07 18:23:33.650  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000e/dl-TfliteDynamiteDynamite.integ_234200803100800.dm': No such file or directory
+04-07 18:23:33.673  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000010/dl-PlayCloudSearch.optional_231818100000.dm': No such file or directory
+04-07 18:23:33.675  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000010/dl-PlayCloudSearch.optional_231818100000.dm': No such file or directory
+04-07 18:23:33.708  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-MlkitOcrCommon.optional_231818100800.dm': No such file or directory
+04-07 18:23:33.709  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-MlkitOcrCommon.optional_231818100800.dm': No such file or directory
+04-07 18:23:33.718  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.dm': No such file or directory
+04-07 18:23:33.722  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.dm': No such file or directory
+04-07 18:23:33.744  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000001c/dl-MlkitBarcodeUi.optional_241017100800.dm': No such file or directory
+04-07 18:23:33.746  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000001c/dl-MlkitBarcodeUi.optional_241017100800.dm': No such file or directory
+04-07 18:23:33.861 15141 15141 I Finsky  : [2] acda.onStartJob(127): SCH: job service start with id 9721.
+04-07 18:23:33.971 15141  8345 I Finsky  : [738] kum.a(245): SCH: Satisfied jobs for 9721 are: 12-1
+04-07 18:23:33.974 15141  8810 I Finsky  : [749] zhs.accept(439): SCH: Job 12-1 starting
+04-07 18:23:33.977 15141 15141 I Finsky  : [2] ContentSyncJob.h(9): [ContentSync] job started
+04-07 18:23:34.046 19390 19390 W InputConnectionWrapper: InputConnectionWrapper.recordDuration():1578 IPC IC_GET_SURROUNDING_TEXT took 183 ms
+04-07 18:23:34.135 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:34.183   883   959 D EGL_emulation: app_time_stats: avg=31.57ms min=2.54ms max=99.72ms count=26
+04-07 18:23:34.230 19390 20832 D EGL_emulation: app_time_stats: avg=209.11ms min=28.92ms max=526.07ms count=7
+04-07 18:23:34.358 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:34.418 15141  8813 I Finsky  : [752] lbo.f(36): Completed 0 account content syncs with 0 successful.
+04-07 18:23:34.438 15141 15141 I Finsky  : [2] ContentSyncJob.a(12): [ContentSync] Installation state replication succeeded.
+04-07 18:23:34.470  8733  8769 D EGL_emulation: app_time_stats: avg=397.92ms min=297.11ms max=532.29ms count=3
+04-07 18:23:34.460 15141 15141 I Finsky  : [2] acbi.r(79): SCH: jobFinished: 12-1. TimeElapsed: 461ms.
+04-07 18:23:34.675 15141 15192 I Finsky  : [120] pda.accept(66): SCH: Scheduling phonesky job Id: 1-1337, CT: 1712514775610, Constraints: [{ L: 14865207, D: 58065207, C: 1, I: 1, N: 1 }]
+04-07 18:23:34.698 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:34.742 15141 15192 I Finsky  : [120] jtq.apply(56): SCH: Scheduling 1 system job(s)
+04-07 18:23:34.743 15141 15192 I Finsky  : [120] acbe.d(246): SCH: Scheduling system job Id: 9724, L: 1026074, D: 44226074, C: false, I: false, N: 1
+04-07 18:23:34.895 15141  8810 I Finsky  : [749] acda.a(24): SCH: job service finished with id 9721.
+04-07 18:23:34.974 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:35.006 19162 19162 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.inappreach.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+04-07 18:23:35.028 15141 15151 I android.vending: WaitForGcToComplete blocked CollectorTransition on None for 8.918ms
+04-07 18:23:35.133 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:35.164 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:35.280 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:35.319 19390 20832 D EGL_emulation: app_time_stats: avg=179.58ms min=27.55ms max=276.50ms count=6
+04-07 18:23:35.362 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:35.424  8733  8733 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:35.450  8733  8733 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@fe053f0]
+04-07 18:23:35.450  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:419ecdaf: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+04-07 18:23:35.475 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2353
+04-07 18:23:35.512 19390 19390 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():172 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+04-07 18:23:35.516 19390 19390 I InputBundle: InputBundle.consumeEvent():878 Skip consuming an event as keyboard status is 0
+04-07 18:23:35.525 19390 19390 I VoiceInputHandler: VoiceInputHandler.onDeactivateIme():115 unregistering TalkbackStateListener
+04-07 18:23:35.532 19390 19390 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():124 shutdown()
+04-07 18:23:35.543 19390 19390 I AndroidIME: AbstractIme.onDeactivate():204 LatinIme.onDeactivate()
+04-07 18:23:35.555 19390 19390 W AccessPointsManager: AccessPointsManager.removeAccessPoint():846 The holder controller #0x7f0b206c is not registered
+04-07 18:23:35.569  8733  8733 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@218956194 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@a73c08f
+04-07 18:23:35.573 19390 19449 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processEndSession():510 No input action collection in this session, skip logging.
+04-07 18:23:35.755   883   959 D EGL_emulation: app_time_stats: avg=91.74ms min=1.04ms max=784.67ms count=15
+04-07 18:23:35.784  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:575d33fa: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+04-07 18:23:35.790   529  1615 I ImeTracker: com.example.android.testing.espresso.BasicSample:575d33fa: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:35.792  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:419ecdaf: onHidden
+04-07 18:23:35.861  8733  8769 D EGL_emulation: app_time_stats: avg=173.59ms min=42.21ms max=503.15ms count=8
+04-07 18:23:35.883  8733  8733 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@fe053f0]
+04-07 18:23:35.899  8733  8733 I ViewInteraction: Performing 'single click' action on view view.getId() is <2130903041/com.example.android.testing.espresso.BasicSample:id/changeTextBt>
+04-07 18:23:36.021   410   447 D audioserver: FGS Logger Transaction failed
+04-07 18:23:36.022   410   447 D audioserver: -129
+04-07 18:23:36.051 19162 19162 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+04-07 18:23:36.215   410   478 D audioserver: FGS Logger Transaction failed
+04-07 18:23:36.215   410   478 D audioserver: -129
+04-07 18:23:36.414  8733  8733 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "GroupNine"}' assertion on view view.getId() is <2130903044/com.example.android.testing.espresso.BasicSample:id/textToBeChanged>
+04-07 18:23:36.442  8733  8733 I ViewInteraction: Performing 'replace text()' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:36.499 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=3000, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, true)
+04-07 18:23:36.499 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:36.500 19390 19390 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-07 18:23:36.501 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-07 18:23:36.514  8733  8733 I ViewInteraction: Performing 'type text(GroupNine)' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:36.614  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:ed08adb2: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+04-07 18:23:36.615  8733  8733 D InputMethodManager: showSoftInput() view=android.widget.EditText{c0c5429 VFED..CL. .F.P.... 42,288-1038,406 #7f030002 app:id/editTextUserInput aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+04-07 18:23:36.653 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2062 onStartInputView(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=3000, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, false)
+04-07 18:23:36.663 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:36.667 19390 19390 W ModuleManager: ModuleManager.loadModule():471 Module ljt is not available
+04-07 18:23:36.698 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.getOemKeyboardHeightRatio():210 systemKeyboardHeightRatio:1.000000.
+04-07 18:23:36.720 19390 19390 I AndroidIME: AbstractIme.onActivate():89 LatinIme.onActivate() : EditorInfo = EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=3000, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
+04-07 18:23:36.722 19390 19390 I Delight5Facilitator: Delight5Facilitator.initializeForIme():746 initializeForIme() : Locale = [en_US], layout = qwerty
+04-07 18:23:36.723 19390 19390 I VoiceInputHandler: VoiceInputHandler.onActivateIme():99 registering TalkbackStateListener
+04-07 18:23:36.729 19390 19390 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():102 cancelShutdown()
+04-07 18:23:36.732 19390 19390 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():114 syncLanguagePacks()
+04-07 18:23:36.733 19390 19390 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1190 inline flag updated to:false
+04-07 18:23:36.750 19390 20844 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():200 maybeScheduleAutoPackDownloadForFallback()
+04-07 18:23:36.751 19390 20844 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+04-07 18:23:36.779 19390 19390 I InputBundle: InputBundle.consumeEvent():878 Skip consuming an event as keyboard status is 0
+04-07 18:23:36.798 19390 19390 I KeyboardWrapper: KeyboardWrapper.activateKeyboard():572 activateKeyboard(): type=prime, status=0, imeDef=kpa{stringId=ime_english_united_states, language=en-US, languageTag=en-US, processedConditions={enable_number_row=false, device=phone}, className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, label=0, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=US, displayAppCompletions=true, extraValues=kos{}, processors=kqs@294ba5f, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=true, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kqa@a6871a, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=true, supportsAccessPoints=true}
+04-07 18:23:36.802 19390 19390 I KeyboardManager: KeyboardManager.requestKeyboard():234 Creating keyboard prime, imeId=ime_english_united_states, cacheKey=theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_light_phone_bottom4dp_navredesign
+04-07 18:23:36.809 19390 19390 I KeyboardWrapper: KeyboardWrapper.onKeyboardReady():236 onKeyboardReady(): type=prime(prime), kb=com.google.android.apps.inputmethod.latin.keyboard.LatinPrimeKeyboard@faac541
+04-07 18:23:36.809 19390 19390 I KeyboardWrapper: KeyboardWrapper.doActivateKeyboard():603 doActivateKeyboard(): prime
+04-07 18:23:36.834 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:36.835   883   959 D EGL_emulation: app_time_stats: avg=16.80ms min=1.18ms max=81.67ms count=43
+04-07 18:23:36.861 19390 19390 W Keyboard: Keyboard.getKeyboardViewHelper():587 null helper is returned: keyboardDef=kpv{processedConditions={enable_more_candidates_view_for_multilingual=false, enable_secondary_symbols=false, variant=qwerty, language=en-US, device=phone, expressions=normal, show_secondary_digits=true, enable_preemptive_decode=true, rtl_layout=false}, globalConditions={global_theme_key=theme_border_stylesheet_noshadow_gsans_pillkey_silkpopup_light_phone_bottom4dp_navredesign, global_locale=en_US, global_density_dpi=420, global_orientation=1}, className=.latin.keyboard.LatinPrimeKeyboard, resourceIds=[#0x7f170665, #0x7f1708e2], initialStates=0, keyboardViewDefs=[kqj{direction=null, id=#0x7f0b0150, isScalable=true, layoutId=#0x7f0e03a9, type=BODY, touchable=true, defaultShow=true}, kqj{direction=null, id=#0x7f0b0150, isScalable=false, layoutId=#0x7f0e01b6, type=FLOATING_CANDIDATES, touchable=false, defaultShow=false}, kqj{direction=LOCALE, id=#0x7f0b0150, isScalable=false, layoutId=#0x7f0e059c, type=HEADER, touchable=true, defaultShow=true}], keyTextSizeRatio=1.0, persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e06ac, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, helpersCreated=[kec@760ec57, kec@e915344, kec@5d75c2d, null], context.getResources().getConfiguration(): {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h866dp 420dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2337) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.62 fontWeightAdjustment=0}
+04-07 18:23:36.867 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:36.868  8733  8769 D EGL_emulation: app_time_stats: avg=18.32ms min=3.73ms max=84.75ms count=37
+04-07 18:23:36.896 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.startInputIfInputViewStarted():3648 startInputIfInputViewStarted(): default prime
+04-07 18:23:36.896 19390 19390 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():610 setInputView() : supportsOneHandedMode=true supportsSplitMode=true
+04-07 18:23:36.909 19390 19390 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():103 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-07 18:23:36.909 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:36.909 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:36.909 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:36.909 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:36.909 19390 19390 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():103 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-07 18:23:36.909 19390 19390 I KeyboardModeManager: KeyboardModeManager.updateKeyboardPinStateIfNecessary():999 Unpin khz@d5ca46c from hinge
+04-07 18:23:36.936 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:36.950 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:36.950 19390 19390 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():600 setInputView() : entry=jys{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_device=phone_device_size=default_enable_more_candidates_view_for_multilingual=false_enable_nav_redesign_for_expression=true_enable_number_row=false_enable_preemptive_decode=true_enable_secondary_digits=true_enable_secondary_symbols=false_enable_show_foldable_layout_on_small_tablet=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_orientation=portrait_physical_keyboard=qwerty_rtl_layout=false_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=en-US}
+04-07 18:23:36.973 19390 19390 I CrowdsourceExtension: CrowdsourceExtension.checkIfDefaultBrowserIsAllowed():110 Failed to get default browser. The default browser may be deactived.
+04-07 18:23:36.984 19390 19390 W AccessPointsManager: AccessPointsManager.removeAccessPoint():846 The holder controller #0x7f0b206c is not registered
+04-07 18:23:36.985 19390 19390 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomaticallyInCurrentInputBox():415 No private IME option set to start voice input.
+04-07 18:23:37.020 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:37.021 19390 19390 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():105
+04-07 18:23:37.021 19390 19390 I WindowMetricsNotification: WindowMetricsNotification.notify():98 WindowMetricsNotification{bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0}; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+04-07 18:23:37.068 19390 20832 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-07 18:23:37.142  8733  8733 D UiControllerImpl: Injecting string: "GroupNine"
+04-07 18:23:37.255  8733  8733 D InsetsController: show(ime(), fromIme=true)
+04-07 18:23:37.256 19390 19390 W InputContextProxy: InputContextProxy.applyClientDiffInternal():939 Ignore [FetchSuggestions] diff due to stale request: 1748<1749, inputStateId=1740, lastInputStateId=1739
+04-07 18:23:37.265 19390 19390 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():478 onKeyboardViewShown: keyboardType=prime, keyboardViewType=HEADER
+04-07 18:23:37.265 19390 19390 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():478 onKeyboardViewShown: keyboardType=prime, keyboardViewType=BODY
+04-07 18:23:37.266 19390 19390 I NewLanguagePromptExtension: NewLanguagePromptExtension$1.onKeyboardViewShown():99 Not show new language banner: no change in enabled input method entries
+04-07 18:23:37.266 19390 19390 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():103 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+04-07 18:23:37.272 19390 19469 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():497 setKeyboardLayout()
+04-07 18:23:37.304 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:37.551  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:ed08adb2: onShown
+04-07 18:23:37.583 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:37.767 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:37.841   883   959 D EGL_emulation: app_time_stats: avg=39.16ms min=0.98ms max=288.49ms count=21
+04-07 18:23:37.906  8733  8769 D EGL_emulation: app_time_stats: avg=126.37ms min=44.63ms max=348.37ms count=8
+04-07 18:23:37.938 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:38.050 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:38.103 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:38.173 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:38.298 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:38.339 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:38.397 19390 20832 D EGL_emulation: app_time_stats: avg=95.29ms min=6.32ms max=190.87ms count=12
+04-07 18:23:38.532 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:38.654  8733  8733 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:38.655 19390 19390 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():45 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+04-07 18:23:38.674  8733  8733 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@f7b0552]
+04-07 18:23:38.697  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:297657d0: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+04-07 18:23:38.722 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2353
+04-07 18:23:38.761 19390 19390 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():172 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+04-07 18:23:38.761  8733  8744 W sso.BasicSample: Cleared Reference was only reachable from finalizer (only reported once)
+04-07 18:23:38.783 19390 19390 I InputBundle: InputBundle.consumeEvent():878 Skip consuming an event as keyboard status is 0
+04-07 18:23:38.792 19390 19390 I VoiceInputHandler: VoiceInputHandler.onDeactivateIme():115 unregistering TalkbackStateListener
+04-07 18:23:38.800 19390 19390 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():124 shutdown()
+04-07 18:23:38.819 19390 19390 I AndroidIME: AbstractIme.onDeactivate():204 LatinIme.onDeactivate()
+04-07 18:23:38.825  8733  8744 I sso.BasicSample: Background young concurrent copying GC freed 62921(2550KB) AllocSpace objects, 2(40KB) LOS objects, 45% free, 3052KB/5644KB, paused 8.694ms,58us total 147.249ms
+04-07 18:23:38.825 19390 19449 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processEndSession():510 No input action collection in this session, skip logging.
+04-07 18:23:38.833 19390 19390 W AccessPointsManager: AccessPointsManager.removeAccessPoint():846 The holder controller #0x7f0b206c is not registered
+04-07 18:23:38.849  8733  8733 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@218956194 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@120249e
+04-07 18:23:38.889   883   959 D EGL_emulation: app_time_stats: avg=18.67ms min=1.20ms max=63.39ms count=38
+04-07 18:23:39.075  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:1bc39180: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+04-07 18:23:39.093   529   971 I ImeTracker: com.example.android.testing.espresso.BasicSample:1bc39180: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:39.094  8733  8733 I ImeTracker: com.example.android.testing.espresso.BasicSample:297657d0: onHidden
+04-07 18:23:39.106   362  2907 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 91632448
+04-07 18:23:39.187  8733  8769 D EGL_emulation: app_time_stats: avg=160.12ms min=76.58ms max=568.14ms count=8
+04-07 18:23:39.191  8733  8733 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@f7b0552]
+04-07 18:23:39.214  8733  8733 I ViewInteraction: Performing 'single click' action on view view.getId() is <2130903040/com.example.android.testing.espresso.BasicSample:id/activityChangeTextBtn>
+04-07 18:23:39.501   410  7326 D audioserver: FGS Logger Transaction failed
+04-07 18:23:39.501   410  7326 D audioserver: -129
+04-07 18:23:39.553   414   414 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-07 18:23:39.573   410   478 D AudioFlinger: mixer(0x7c2dfefa6930) throttle end: throttle time(39)
+04-07 18:23:39.590  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: PAUSED
+04-07 18:23:39.600  8733  8733 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7
+04-07 18:23:39.620   410   478 D AudioFlinger: mixer(0x7c2dfefa6930) throttle end: throttle time(21)
+04-07 18:23:39.739   410   478 D audioserver: FGS Logger Transaction failed
+04-07 18:23:39.739   410   478 D audioserver: -129
+04-07 18:23:39.783  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976 in: PRE_ON_CREATE
+04-07 18:23:39.784  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976
+04-07 18:23:39.855  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976 in: CREATED
+04-07 18:23:39.855  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976
+04-07 18:23:39.885  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976 in: STARTED
+04-07 18:23:39.886  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976
+04-07 18:23:39.916  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976 in: RESUMED
+04-07 18:23:39.918  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976
+04-07 18:23:39.960   883   959 D EGL_emulation: app_time_stats: avg=25.41ms min=1.05ms max=73.23ms count=31
+04-07 18:23:40.105  8733  8769 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-07 18:23:40.206   529   559 I ActivityTaskManager: Displayed com.example.android.testing.espresso.BasicSample/.ShowTextActivity for user 0: +780ms
+04-07 18:23:40.220  8733  8769 D EGL_emulation: app_time_stats: avg=27.15ms min=2.13ms max=82.70ms count=30
+04-07 18:23:40.555  8733  8733 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+04-07 18:23:40.577  8733  8733 D RootViewPicker: Root not ready - waiting: 25ms for one to appear.
+04-07 18:23:40.610  8733  8733 D RootViewPicker: Root not ready - waiting: 50ms for one to appear.
+04-07 18:23:40.637   529   971 I ImeTracker: com.example.android.testing.espresso.BasicSample:3a621f1f: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+04-07 18:23:40.639   529   971 I ImeTracker: com.example.android.testing.espresso.BasicSample:3a621f1f: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:40.663 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3096
+04-07 18:23:40.687 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 0, locked = false
+04-07 18:23:40.702 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-07 18:23:40.726 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:40.731 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+04-07 18:23:40.761  8733  8733 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "GroupNine"}' assertion on view view.getId() is <2130903043/com.example.android.testing.espresso.BasicSample:id/show_text_view>
+04-07 18:23:40.761 19390 19390 W NotificationCenter: NotificationCenter$ListenerData.notifyOnExecutor():672 Heavy notify work detected on UI thread: |kbw->jet| takes 27ms
+04-07 18:23:40.793  8733  8733 I ViewInteraction: Performing 'send keyCode: 4, metaState: 0 key event' action on view view.getRootView() to equal view
+04-07 18:23:40.882  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976 in: PAUSED
+04-07 18:23:40.888  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976
+04-07 18:23:40.945  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: RESUMED
+04-07 18:23:40.945  8733  8733 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7
+04-07 18:23:40.967 17621 17734 W TimedProcessReaper: Memory state is: 125
+04-07 18:23:40.967 17621 17734 D TimedProcessReaper: Attempted to reap process, but was too important
+04-07 18:23:41.029   529  1615 I ImeTracker: com.example.android.testing.espresso.BasicSample:4effefe6: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+04-07 18:23:41.035   529  1615 I ImeTracker: com.example.android.testing.espresso.BasicSample:4effefe6: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-07 18:23:41.059 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3096
+04-07 18:23:41.080 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 0, locked = false
+04-07 18:23:41.080 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=9, initialSelEnd=9, initialCapsMode=0, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, false)
+04-07 18:23:41.110 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:41.111 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-07 18:23:41.239  8733  8769 D EGL_emulation: app_time_stats: avg=84.38ms min=2.91ms max=734.91ms count=11
+04-07 18:23:41.938  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976 in: STOPPED
+04-07 18:23:41.939  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976
+04-07 18:23:41.956  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976 in: DESTROYED
+04-07 18:23:41.959  8733  8733 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@8e2976
+04-07 18:23:41.959  8733  8733 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@c4a3e14
+04-07 18:23:42.006   529   554 W InputManager-JNI: Input channel object '2429da5 com.example.android.testing.espresso.BasicSample/com.example.android.testing.espresso.BasicSample.ShowTextActivity (client)' was disposed without first being removed with the input manager!
+04-07 18:23:42.027  8733  8733 W KeyEventActionBase: Back was pressed and left the application in an inconsistent state even after 600ms.
+04-07 18:23:42.039  8733  8733 I ViewInteraction: Performing 'replace text()' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+04-07 18:23:42.111 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.example.android.testing.espresso.BasicSample, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=3000, label=null, fieldId=2130903042, fieldName=null, extras=null, hintText=non-empty, hintLocales=[]}}, true)
+04-07 18:23:42.136 19390 19390 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-07 18:23:42.136 19390 19390 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-07 18:23:42.136 19390 19390 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: en-US, ime_english_united_states
+04-07 18:23:42.298  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: PAUSED
+04-07 18:23:42.298  8733  8733 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7
+04-07 18:23:42.352   414   414 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-07 18:23:42.360   357   357 D Zygote  : Forked child process 8820
+04-07 18:23:42.379  8820  8820 I asicSample.test: Late-enabling -Xcheck:jni
+04-07 18:23:42.425  8820  8820 I asicSample.test: Using CollectorTypeCC GC.
+04-07 18:23:42.426  8820  8820 W asicSample.test: Unexpected CPU variant for x86: x86_64.
+04-07 18:23:42.426  8820  8820 W asicSample.test: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+04-07 18:23:42.455   883   959 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-07 18:23:42.561  8733  8769 D EGL_emulation: app_time_stats: avg=113.62ms min=9.00ms max=430.81ms count=11
+04-07 18:23:42.611  2229  2250 I adbd    : jdwp connection from 8820
+04-07 18:23:42.639   362  2907 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 91776064
+04-07 18:23:42.791   883   959 D EGL_emulation: app_time_stats: avg=19560.09ms min=19560.09ms max=19560.09ms count=1
+04-07 18:23:42.905  8820  8820 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10199; state: ENABLED
+04-07 18:23:42.906  8820  8820 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10199; state: DISABLED
+04-07 18:23:43.111  8820  8820 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+04-07 18:23:43.158  8820  8820 D nativeloader: Configuring clns-6 for other apk /system/framework/android.test.mock.jar. target_sdk_version=32, uses_libraries=ALL, library_path=/data/app/~~mhcewNoKHVREAiW37N9GuA==/com.example.android.testing.espresso.BasicSample.test-K6fXkT0svH3_zc52NbYcyA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.android.testing.espresso.BasicSample.test
+04-07 18:23:43.203  8820  8820 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+04-07 18:23:43.206  8820  8820 D nativeloader: Configuring clns-7 for other apk /system/framework/android.test.runner.jar. target_sdk_version=32, uses_libraries=ALL, library_path=/data/app/~~mhcewNoKHVREAiW37N9GuA==/com.example.android.testing.espresso.BasicSample.test-K6fXkT0svH3_zc52NbYcyA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.android.testing.espresso.BasicSample.test
+04-07 18:23:43.253  8820  8820 W ziparchive: Unable to open '/data/app/~~mhcewNoKHVREAiW37N9GuA==/com.example.android.testing.espresso.BasicSample.test-K6fXkT0svH3_zc52NbYcyA==/base.dm': No such file or directory
+04-07 18:23:43.279   883   883 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+04-07 18:23:43.323  8820  8820 W ziparchive: Unable to open '/data/app/~~mhcewNoKHVREAiW37N9GuA==/com.example.android.testing.espresso.BasicSample.test-K6fXkT0svH3_zc52NbYcyA==/base.dm': No such file or directory
+04-07 18:23:43.381   883   959 D EGL_emulation: app_time_stats: avg=131.08ms min=5.09ms max=2540.70ms count=25
+04-07 18:23:43.530  8820  8820 D nativeloader: Configuring clns-8 for other apk /data/app/~~mhcewNoKHVREAiW37N9GuA==/com.example.android.testing.espresso.BasicSample.test-K6fXkT0svH3_zc52NbYcyA==/base.apk. target_sdk_version=32, uses_libraries=, library_path=/data/app/~~mhcewNoKHVREAiW37N9GuA==/com.example.android.testing.espresso.BasicSample.test-K6fXkT0svH3_zc52NbYcyA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.android.testing.espresso.BasicSample.test
+04-07 18:23:43.746  8820  8820 V GraphicsEnvironment: Currently set values for:
+04-07 18:23:43.746  8820  8820 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+04-07 18:23:43.746  8820  8820 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+04-07 18:23:43.761  8820  8820 V GraphicsEnvironment: ANGLE GameManagerService for com.example.android.testing.espresso.BasicSample.test: false
+04-07 18:23:43.769  8820  8820 V GraphicsEnvironment: com.example.android.testing.espresso.BasicSample.test is not listed in per-application setting
+04-07 18:23:43.770  8820  8820 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+04-07 18:23:43.858  8733  8744 I sso.BasicSample: WaitForGcToComplete blocked HeapTrim on None for 14.866ms
+04-07 18:23:44.043  8820  8849 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+04-07 18:23:44.071  8820  8849 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+04-07 18:23:44.093  8820  8849 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+04-07 18:23:44.254  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000013/CronetDynamite.dm': No such file or directory
+04-07 18:23:44.266  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000013/CronetDynamite.dm': No such file or directory
+04-07 18:23:44.298  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000004/DynamiteModulesC.dm': No such file or directory
+04-07 18:23:44.298  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000004/DynamiteModulesC.dm': No such file or directory
+04-07 18:23:44.306  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-VisionOcrDynamite.integ_231602402100000.dm': No such file or directory
+04-07 18:23:44.307  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-VisionOcrDynamite.integ_231602402100000.dm': No such file or directory
+04-07 18:23:44.318  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.dm': No such file or directory
+04-07 18:23:44.318  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.dm': No such file or directory
+04-07 18:23:44.322  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.dm': No such file or directory
+04-07 18:23:44.322  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.dm': No such file or directory
+04-07 18:23:44.323  8820  8820 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10199; state: DISABLED
+04-07 18:23:44.340  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.dm': No such file or directory
+04-07 18:23:44.340  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.dm': No such file or directory
+04-07 18:23:44.393   883   959 D EGL_emulation: app_time_stats: avg=33.80ms min=1.00ms max=103.95ms count=19
+04-07 18:23:44.426  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000000/AdsDynamite.dm': No such file or directory
+04-07 18:23:44.426  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000000/AdsDynamite.dm': No such file or directory
+04-07 18:23:44.450  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: STOPPED
+04-07 18:23:44.451  8733  8733 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7
+04-07 18:23:44.452  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000018/dl-MlkitOcrCommon.optional_241017100800.dm': No such file or directory
+04-07 18:23:44.452  8795  8798 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000018/dl-MlkitOcrCommon.optional_241017100800.dm': No such file or directory
+04-07 18:23:44.452  8820  8820 W OpenGLRenderer: Unknown dataspace 0
+04-07 18:23:44.453  8733  8733 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@c9837c7 in: DESTROYED
+04-07 18:23:44.458  8733  8733 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+04-07 18:23:44.488  8733  8733 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@be9636f
+04-07 18:23:44.502 19390   669 I SpellCheckerSession: SpellCheckerSession.onClose():676 com.google.android.keyboard.client.delight5.LanguageIdentifier@88ac803 is closed
+04-07 18:23:44.502  8733  8767 I TestRunner: finished: validateEditText(com.example.android.testing.espresso.BasicSample.MainActivityTest)

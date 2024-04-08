@@ -19,9 +19,11 @@ package com.example.android.testing.espresso.BasicSample;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * An {@link Activity} that gets a text string from the user and displays it back when the user
@@ -52,7 +54,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         // Get the text from the EditText view.
-        final String text = mEditText.getText().toString();
+        final String text = String.valueOf(mEditText.getText());
 
         final int changeTextBtId = R.id.changeTextBt;
         final int activityChangeTextBtnId = R.id.activityChangeTextBtn;
@@ -66,5 +68,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
               .newStartIntent(this, text);
           startActivity(intent);
         }
+
+
+
     }
+
+
 }

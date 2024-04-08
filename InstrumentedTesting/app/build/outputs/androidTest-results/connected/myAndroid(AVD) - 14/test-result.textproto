@@ -1,0 +1,68 @@
+# 2024-04-07T22:23:44.707Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "com.example.android.testing.espresso.BasicSample"
+    test_method: "validateEditText"
+    start_time {
+      seconds: 1712528597
+      nanos: 673000000
+    }
+    end_time {
+      seconds: 1712528623
+      nanos: 861000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Projects\\Android\\android-testing\\InstrumentedTesting\\app\\build\\outputs\\androidTest-results\\connected\\myAndroid(AVD) - 14\\logcat-com.example.android.testing.espresso.BasicSample.MainActivityTest-validateEditText.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Projects\\Android\\android-testing\\InstrumentedTesting\\app\\build\\outputs\\androidTest-results\\connected\\myAndroid(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Projects\\Android\\android-testing\\InstrumentedTesting\\app\\build\\outputs\\androidTest-results\\connected\\myAndroid(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Projects\\Android\\android-testing\\InstrumentedTesting\\app\\build\\outputs\\androidTest-results\\connected\\myAndroid(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Projects\\Android\\android-testing\\InstrumentedTesting\\app\\build\\outputs\\androidTest-results\\connected\\myAndroid(AVD) - 14\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

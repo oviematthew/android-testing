@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.android.testing.espresso.BasicSample.MainActivityTest" tests="1" failures="0" errors="0" skipped="0" time="26.977" timestamp="2024-04-07T22:23:44" hostname="localhost">
+  <properties>
+    <property name="device" value="myAndroid(AVD) - 14" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="validateEditText" classname="com.example.android.testing.espresso.BasicSample.MainActivityTest" time="26.168" />
+</testsuite>

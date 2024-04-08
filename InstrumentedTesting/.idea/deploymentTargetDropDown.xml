@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="MainActivityTest">
+        <State />
+      </entry>
+      <entry key="ShowTextActivityTest">
+        <State />
+      </entry>
+      <entry key="app">
+        <State />
+      </entry>
+      <entry key="validateEditText()">
+        <State />
+      </entry>
+      <entry key="validateTextView()">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>

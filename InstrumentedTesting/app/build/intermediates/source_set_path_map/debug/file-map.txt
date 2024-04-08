@@ -1,0 +1,8 @@
+com.example.android.testing.espresso.BasicSample.app-pngs-0 C:\Projects\Android\android-testing\InstrumentedTesting\app\build\generated\res\pngs\debug
+com.example.android.testing.espresso.BasicSample.app-resValues-1 C:\Projects\Android\android-testing\InstrumentedTesting\app\build\generated\res\resValues\debug
+com.example.android.testing.espresso.BasicSample.app-rs-2 C:\Projects\Android\android-testing\InstrumentedTesting\app\build\generated\res\rs\debug
+com.example.android.testing.espresso.BasicSample.app-mergeDebugResources-3 C:\Projects\Android\android-testing\InstrumentedTesting\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.android.testing.espresso.BasicSample.app-mergeDebugResources-4 C:\Projects\Android\android-testing\InstrumentedTesting\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.android.testing.espresso.BasicSample.app-merged_res-5 C:\Projects\Android\android-testing\InstrumentedTesting\app\build\intermediates\merged_res\debug
+com.example.android.testing.espresso.BasicSample.app-debug-6 C:\Projects\Android\android-testing\InstrumentedTesting\app\src\debug\res
+com.example.android.testing.espresso.BasicSample.app-main-7 C:\Projects\Android\android-testing\InstrumentedTesting\app\src\main\res
